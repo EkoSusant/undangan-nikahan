@@ -14,3 +14,19 @@ $(window).on("load", function () {
   }
   slideShow();
 });
+
+$(document).ready(function () {
+  // people filter
+  peopleFilter($(".filter-btn.active").attr("data-target"));
+  $(".filter-btn").click(function () {
+    if (!$(this).hasClass("active")) {
+      peopleFilter($(this).attr("data-target"));
+    }
+  });
+  function peopleFilter(target) {
+    $(".filter-btn").removeClass("active");
+    $(".filter-btn[data-target='" + target + "']").addClass("active");
+    $(".people-item").hide();
+    $(".people-item[data-category='" + target + "']").fadeIn();
+  }
+});
