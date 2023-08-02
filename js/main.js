@@ -75,12 +75,12 @@ $(document).ready(function () {
     $(".gp-counter").text(itemIndex + 1 + "/" + totalGalleryItems);
   }
 
-  //   close gallery popup
+  //   hide gallery popup
   $(".gp-close").click(function () {
     $(".gallery-popup").removeClass("open");
   });
 
-  //   hidden gallery popup
+  //   hidden gallery popup when clicked outside
   $(".gallery-popup").click(function (event) {
     if ($(event.target).hasClass("open")) {
       $(".gallery-popup").removeClass("open");
