@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
     <!-- main css -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <!-- default skin -->
     <link
       rel="stylesheet"
@@ -21,17 +23,20 @@
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="logo">
-            <a href="index.html">E $ E</a>
+            <a href="index.html">E & E</a>
+          </div>
+          <div class="hamburger-btn">
+            <span></span>
           </div>
           <div class="nav">
             <ul>
-              <li><a href="#" class="active">Home</a></li>
-              <li><a href="#">Couple</a></li>
-              <li><a href="#">Story</a></li>
-              <li><a href="#">Events</a></li>
-              <li><a href="#">People</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">RSVP</a></li>
+              <li><a href="#" data-scroll-nav="0" class="active">Home</a></li>
+              <li><a data-scroll-nav="1" href="#">Couple</a></li>
+              <li><a data-scroll-nav="2" href="#">Story</a></li>
+              <li><a data-scroll-nav="3" href="#">Events</a></li>
+              <li><a data-scroll-nav="4" href="#">People</a></li>
+              <li><a data-scroll-nav="5" href="#">Gallery</a></li>
+              <li><a data-scroll-nav="6" href="#">RSVP</a></li>
             </ul>
           </div>
         </div>
@@ -39,7 +44,7 @@
     </header>
     <!-- Header End -->
     <!-- Home Section Start-->
-    <section class="home-section">
+    <section class="home-section" data-scroll-index="0">
       <!-- Slide Start -->
       <div
         class="slide active"
@@ -92,7 +97,7 @@
     <!-- Home Section End -->
 
     <!-- Couple section Start -->
-    <section class="couple-section">
+    <section class="couple-section" data-scroll-index="1">
       <div class="container">
         <div class="row">
           <div class="section-title">
@@ -157,7 +162,7 @@
     <!-- Couple section End -->
 
     <!-- Story section start -->
-    <section class="story-section">
+    <section class="story-section" data-scroll-index="2">
       <div class="container">
         <div class="row">
           <div class="section-title">
@@ -243,7 +248,7 @@
     <!-- Story section end -->
 
     <!-- event section start-->
-    <section class="event-section">
+    <section class="event-section" data-scroll-index="3">
       <div class="container">
         <div class="row">
           <div class="section-title">
@@ -287,7 +292,7 @@
     <!-- event section end-->
 
     <!-- people section start -->
-    <section class="people-section">
+    <section class="people-section" data-scroll-index="4">
       <div class="container">
         <div class="row">
           <div class="section-title">
@@ -509,7 +514,7 @@
     <!-- people section end -->
 
     <!-- Gallery section Start -->
-    <section class="gallery-section">
+    <section class="gallery-section" data-scroll-index="5">
       <div class="container">
         <div class="row">
           <div class="section-title">
@@ -578,7 +583,7 @@
     <!-- Gallery section End -->
 
     <!-- rsvp section start -->
-    <section class="rsvp-section">
+    <section class="rsvp-section" data-scroll-index="6">
       <div class="container">
         <div class="row">
           <div class="section-title">
@@ -679,6 +684,8 @@
 
     <!-- jquery -->
     <script src="/js/jquery.min.js"></script>
+    <!-- scillit -->
+    <script src="/js/scrollIt.min.js"></script>
     <!-- main -->
     <script src="js/main.js"></script>
   </body>
