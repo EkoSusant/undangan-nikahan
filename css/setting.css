@@ -6,10 +6,15 @@
   width: 100%;
   padding: 15px;
   top: 100px;
-  z-index: 1500;
+  z-index: 999;
   border-radius: 0 0 0 5px;
+  transition: all 0.3s ease;
+  transform: translateX(100%);
 }
-.setting .s-toogle-btn {
+.setting.open {
+  transform: translateX(0%);
+} /* wrong toggle */
+.setting .s-toggle-btn {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -52,7 +57,7 @@ body.dark .setting {
 }
 body.dark .setting h4 {
   color: #ffffff;
-  border-color: #444444;
+  border-color: #333333;
 }
 body.dark .setting label {
   color: #bbbbbb;

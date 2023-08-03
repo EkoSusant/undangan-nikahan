@@ -48,4 +48,8 @@ $(document).ready(function () {
       $("body").addClass("dark");
     }
   });
+  //   toggle setting box
+  $(".s-toggle-btn").click(function () {
+    $(".setting").toggleClass("open");
+  });
 });

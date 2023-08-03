@@ -42,7 +42,7 @@
   .couple-section .couple {
     flex: 0 0 100%;
     max-width: 100%;
-    padding: 0 15px;
+    padding: 15px 15px;
   }
   .couple-section .coouple:nth-child(2) {
     margin: 50px;

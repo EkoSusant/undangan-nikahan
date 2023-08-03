@@ -1,5 +1,5 @@
 /*  red  */
-
+.preloader .loader i,
 .btn-1:hover,
 .people-section .people-item-inner .social-links a i,
 .event-section .event-item-inner span,
@@ -22,12 +22,14 @@ body.dark .header .nav ul li a:hover,
 .couple-section .couple img {
   border-color: #cc3a3b;
 }
-
-.setting .s-toogle-btn,
+.preloader .loader:before {
+  border-right-color: #cc3a3b;
+}
+.setting .s-toggle-btn,/* wrong toggle */
 .btn-1,
 .rsvp-section,
 .people-section .people-item-inner .social-links a:hover i,
-body-dark .people-section .filter-btn.active,
+body.dark .people-section .filter-btn.active,
 .people-section .filter-btn.active,
 .event-section,
 .couple-section .social-links a:hover i {

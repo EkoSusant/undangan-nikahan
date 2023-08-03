@@ -1,5 +1,5 @@
 /*  yellow  */
-
+.preloader .loader i,
 .btn-1:hover,
 .people-section .people-item-inner .social-links a i,
 .event-section .event-item-inner span,
@@ -22,8 +22,11 @@ body.dark .header .nav ul li a:hover,
 .couple-section .couple img {
   border-color: #ff9801;
 }
-
-.setting .s-toogle-btn,
+.preloader .loader:before {
+  border-right-color: #ff9801;
+}
+/* wrong toggle */
+.setting .s-toggle-btn,
 .btn-1,
 .rsvp-section,
 .people-section .people-item-inner .social-links a:hover i,
