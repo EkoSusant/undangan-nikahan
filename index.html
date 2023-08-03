@@ -16,6 +16,8 @@
       class="alternate-style"
       type="text/css"
       href="css/skins/pink.css" />
+    <!-- Theme Color -->
+    <link rel="stylesheet" type="text/css" href="css/setting.css" />
   </head>
   <body>
     <!-- Header Start -->
@@ -682,11 +684,38 @@
     </div>
     <!-- Gallery popup end -->
 
+    <!-- Theme Color Section Start -->
+    <div class="setting">
+      <div class="s-toogle-btn">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <!-- Theme light dark mode -->
+      <h4>Theme Color</h4>
+      <div class="colors"></div>
+      <h4>Theme Mode</h4>
+      <label>
+        <input
+          type="radio"
+          name="Id"
+          value="light"
+          class="theme-mode"
+          checked />
+        Light
+      </label>
+      <label>
+        <input type="radio" name="Id" value="dark" class="theme-mode" />
+        Dark
+      </label>
+    </div>
+    <!-- Theme Color Section End -->
+
     <!-- jquery -->
-    <script src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
     <!-- scillit -->
-    <script src="/js/scrollIt.min.js"></script>
+    <script type="text/javascript" src="/js/scrollIt.min.js"></script>
     <!-- main -->
-    <script src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <!-- Theme Setting -->
+    <script type="text/javascript" src="/js/setting.js"></script>
   </body>
 </html>

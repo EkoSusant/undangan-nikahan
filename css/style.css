@@ -796,3 +796,45 @@ p.copyright-text {
   padding: 20px 0;
   border-top: 1px solid #cccccc;
 }
+
+/* dark theme mode */
+body.dark .event-section .event-item-inner,
+body.dark .story-section .story-item i,
+body.dark .couple-section .couple i.fa-heart,
+body.dark {
+  background-color: #111111;
+}
+body.dark .people-section .filter-btn,
+body.dark .header.fixed .hamburger-btn,
+body.dark .header .nav,
+body.dark .header.fixed {
+  background-color: #222222;
+}
+body.dark .event-section .event-item-inner h3,
+body.dark .section-title h2,
+body.dark .header .nav ul li a,
+body.dark .header.fixed .nav ul li a,
+body.dark .header.fixed .logo a {
+  color: #ffffff;
+}
+body.dark .people-section .filter-btn,
+body.dark .event-section .event-item-inner p,
+body.dark .story-section .story-text span.date,
+body.dark .story-section .story-text p,
+body.dark .couple-section .couple p {
+  color: #bbbbbb;
+}
+body.dark .header.fixed .hamburger-btn {
+  border-color: #ffffff;
+}
+body.dark .header.fixed {
+  box-shadow: 0 0 10px #000000;
+}
+body.dark .story-section .story-content:before,
+body.dark .couple-section .couple:nth-child(2):before {
+  background-color: #444444;
+}
+body.dark .event-section .event-item-inner h3,
+body.dark .header.fixed .nav {
+  border-color: #444444;
+}
