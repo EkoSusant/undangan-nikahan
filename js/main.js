@@ -15,6 +15,16 @@ $(window).on("load", function () {
     setTimeout(slideShow, 5000);
   }
   slideShow();
+
+  //audio
+  $(".fa-music").click(function () {
+    if ($(this).hasClass("pause")) {
+      $("#myAudio")[0].play();
+    } else {
+      $("#myAudio")[0].pause();
+    }
+    $(this).toggleClass("pause");
+  });
 });
 
 $(document).ready(function () {

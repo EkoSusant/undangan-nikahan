@@ -842,6 +842,7 @@ footer {
   text-align: center;
   letter-spacing: 2px;
 }
+/* copyright text */
 p.copyright-text {
   text-align: center;
   font-size: 14px;
@@ -849,6 +850,30 @@ p.copyright-text {
   color: #555555;
   padding: 20px 0;
   border-top: 1px solid #cccccc;
+}
+/* Audio */
+.fa-music {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  line-height: 38px;
+  text-align: center;
+  box-shadow: 0 0 2px #444444;
+  text-shadow: 0 0 1px #444444;
+}
+.fa-music.pause:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 3px;
+  height: 100%;
+  transform: rotate(-36deg);
 }
 
 /* dark theme mode */
